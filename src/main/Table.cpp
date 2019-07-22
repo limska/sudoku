@@ -28,3 +28,13 @@ print() const
   }
 
 }
+
+
+void
+Table::
+set(int row, int colomn, int value)
+{
+  _table[row][colomn].set(value);
+}
+
+

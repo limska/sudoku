@@ -10,6 +10,11 @@ class Cell
 
     void print() const;
 
+    void set(int value);
+    int get() const;
+    std::set<int> getValues() const { return _values; }
+    bool isKnown() const { return _values.size() == 1; }
+
   private:
     std::set<int> _values;
 };

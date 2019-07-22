@@ -13,6 +13,8 @@ class Table
 
     void print() const;
 
+    void set(int row, int colomn, int value);
+
   private:
     std::vector<std::vector<Cell>> _table;
 };
