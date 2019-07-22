@@ -11,6 +11,8 @@ class Table
     explicit Table();
     ~Table() = default;
 
+    void print() const;
+
   private:
     std::vector<std::vector<Cell>> _table;
 };

@@ -11,6 +11,8 @@ int main(int argv, char** argc)
 
   Table table;
 
+  table.print();
+
   try
   {
     Solver(table).run();

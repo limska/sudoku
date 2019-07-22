@@ -8,6 +8,8 @@ class Cell
   public:
     explicit Cell();
 
+    void print() const;
+
   private:
     std::set<int> _values;
 };
