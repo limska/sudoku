@@ -8,7 +8,7 @@
 
 int main(int argv, char** argc)
 {
-  std::cout << "Sudoku Solver v1.0" << std::endl;
+  std::cout << "Sudoku Solver v2.0" << std::endl;
 
   Table table;
 
